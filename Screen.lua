@@ -84,7 +84,7 @@ local SeaConfigs = {
 	SubTitle.Position = UDim2.new(0, 0, 0.40, 0)
 	SubTitle.Size = UDim2.new(1, 0, 0, 28)
 	SubTitle.Font = Enum.Font.SourceSansBold
-	SubTitle.Text = "Escape Tsunami For Brainrots!"
+	SubTitle.Text = "Discord: tuoi || Escape Tsunami For Brainrots!"
 	SubTitle.TextColor3 = SeaConfigs.SubTitleColor
 	SubTitle.TextSize = 24
 
