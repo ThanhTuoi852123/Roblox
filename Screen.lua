@@ -44,7 +44,7 @@ local SeaConfigs = {
 	local GameFrame = Instance.new("Frame")
 	local GameTitle = Instance.new("TextLabel")
 
-	ScreenGui.Name = "SeaHubTracker"
+	ScreenGui.Name = "KaitunTracker"
 	ScreenGui.Parent = game:GetService("CoreGui")
 	ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 	ScreenGui.IgnoreGuiInset = true
