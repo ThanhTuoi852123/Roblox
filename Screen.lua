@@ -72,7 +72,7 @@ local SeaConfigs = {
 	Title.Position = UDim2.new(0, 0, 0.08, 0)
 	Title.Size = UDim2.new(1, 0, 0, 25)
 	Title.Font = Enum.Font.SourceSansBold
-	Title.Text = getgenv().DiscordLink
+	Title.Text = "Status: ".. getgenv().DiscordLink
 	Title.TextColor3 = SeaConfigs.TitleColor
 	Title.TextSize = 20
 
