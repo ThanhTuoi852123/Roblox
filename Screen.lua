@@ -366,6 +366,7 @@ local SeaConfigs = {
 		end
 
 		function UpdateSeaHubInfo(category, key, value)
+			Title.Text = getgenv().DiscordLink
 			if category == "Player" and SeaConfigs.PlayerInfo then
 				SeaConfigs.PlayerInfo[key] = value
 				local label = PlayerFrame:FindFirstChild(key .. "Label")
