@@ -13,6 +13,7 @@ local SeaConfigs = {
      
     ColorMapping = {
         ["username"] = Color3.fromRGB(255, 255, 255),
+		["total pet"] = Color3.fromRGB(0, 255, 0),
         ["radioactive coins"] = Color3.fromRGB(252, 255, 60),
         ["radioactive lucky block"] = Color3.fromRGB(255, 219, 93),
         ["time event radioactive"] = Color3.fromRGB(187, 161, 89),
