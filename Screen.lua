@@ -4,6 +4,7 @@ local SeaConfigs = {
         {key = "Username", value = game.Players.LocalPlayer.Name},
         {key = "Radioactive Coins", value = "N/A"},
         {key = "Radioactive Lucky Block", value = "N/A"},
+		{key = "Total Pet", value = "N/A"},
     },
 
     GameInfo = {
