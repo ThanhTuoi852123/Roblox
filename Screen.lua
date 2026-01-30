@@ -2,22 +2,20 @@ getgenv().DiscordLink = "..."
 local SeaConfigs = {
     PlayerInfo = {
         {key = "Username", value = game.Players.LocalPlayer.Name},
-        {key = "Radioactive Coins", value = "N/A"},
-        {key = "Radioactive Lucky Block", value = "N/A"},
+        {key = "Money", value = "N/A"},
 		{key = "Total Pet", value = "N/A"},
     },
 
     GameInfo = {
-        {key = "Time Event Radioactive", value = "N/A"},
+        {key = "Event Next", value = "N/A"},
 
     },
      
     ColorMapping = {
         ["username"] = Color3.fromRGB(255, 255, 255),
 		["total pet"] = Color3.fromRGB(0, 255, 0),
-        ["radioactive coins"] = Color3.fromRGB(252, 255, 60),
-        ["radioactive lucky block"] = Color3.fromRGB(255, 219, 93),
-        ["time event radioactive"] = Color3.fromRGB(187, 161, 89),
+        ["event next"] = Color3.fromRGB(252, 255, 60),
+        ["money"] = Color3.fromRGB(255, 219, 93),
     },
 
     BackgroundColor = Color3.fromRGB(20, 20, 20),
