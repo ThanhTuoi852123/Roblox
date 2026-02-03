@@ -3,6 +3,7 @@ local SeaConfigs = {
     PlayerInfo = {
         {key = "Username", value = game.Players.LocalPlayer.Name},
         {key = "Money", value = "N/A"},
+		 {key = "Gen/s", value = "N/A"},
 		{key = "Total Pet", value = "N/A"},
     },
 
@@ -16,6 +17,7 @@ local SeaConfigs = {
 		["total pet"] = Color3.fromRGB(0, 255, 0),
         ["event next"] = Color3.fromRGB(252, 255, 60),
         ["money"] = Color3.fromRGB(255, 219, 93),
+		["gen/s"] = Color3.fromRGB(255, 219, 93),
     },
 
     BackgroundColor = Color3.fromRGB(20, 20, 20),
