@@ -5,7 +5,8 @@ local SeaConfigs = {
         {key = "Money", value = "N/A"},
 		 {key = "Gen/s", value = "N/A"},
 		{key = "Total Pet", value = "N/A"},
-		{key = "Infinity", value = "N/A"},
+		{key = "Infinity Block", value = "N/A"},
+		{key = "Divine Block", value = "N/A"},
     },
 
     GameInfo = {
@@ -16,7 +17,8 @@ local SeaConfigs = {
     ColorMapping = {
         ["username"] = Color3.fromRGB(255, 255, 255),
 		["total pet"] = Color3.fromRGB(0, 255, 0),
-		["infinity"] = Color3.fromRGB(0, 255, 0),
+		["infinity block"] = Color3.fromRGB(0, 255, 0),
+		["divine block"] = Color3.fromRGB(0, 255, 0),
         ["event next"] = Color3.fromRGB(252, 255, 60),
         ["money"] = Color3.fromRGB(255, 219, 93),
 		["gen/s"] = Color3.fromRGB(255, 219, 93),
